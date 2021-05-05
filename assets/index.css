@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth;
+  }
+.header {
+    width: 100%;
+    background-image:url("./images/header.jpg");
+    height: auto;
+    min-height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.logo{
+    width: 10rem;
+    height: auto;
+    margin: 1% 1% 1% 8%;
+}
+.nav-item{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    margin: 10px 15px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.nav-item:hover{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #7DD0FF;
+}
+.nav-items{
+    margin-right: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .nav-items {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+.header-title-primary{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header-title-secondary{
+    color: #7DD0FF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header-description{
+    color: white;
+    max-width: 550px;
+}
+
+.header-description-sub{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-content{
+    padding-top: 8rem;
+    margin-left: 8%;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+}
+.title-primary{
+    color: black;
+    padding-bottom: 0.5rem;
+    margin: 4% 8% 4% 8%;
+    font-weight: 500;
+    border-bottom: 3px solid #7DD0FF;
+    width: fit-content;
+}
+.card{
+    margin: 5% 5%;
+}
+.card-title{
+    font-size: 16px;
+}
+.card-body{
+    min-height: 150px;
+}
+.card-actions{
+    flex: 1 1 auto;
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+.row{
+    margin: 1% 5% !important;
+    justify-content: center;
+}
+.btn{
+    margin: 0px 20px;
+    padding: 5px 20px !important;
+}
+.btn-primary{
+    background-color: white !important;
+    border: 1px solid #2B99D8 !important;
+    color: #2B99D8 !important;
+}
+.btn-secondary{
+    background-color: #2B99D8 !important;
+    color: white !important;
+}
+.contact-section {
+    width: 100%;
+    background-image:url("./images/footer.jpg");
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10px;
+}
+.title-secondary{
+    color: white;
+    padding-bottom: 0.5rem;
+    margin: 3% 8% 3% 8%;
+    font-weight: 500;
+    border-bottom: 3px solid #7DD0FF;
+    width: fit-content;
+}
+.form-control{
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid #7DD0FF !important;
+}
+.address{
+    background-color: #7DD0FF;
+    border-radius: 20px;
+    height: 300px;
+    background:rgba(120, 190, 255, 0.85);
+    padding: 50px;
+    color: white;
+    margin: 20px auto;
+}
+.footer{
+    background-color: #242424;
+    height: auto;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+.nav-bg{
+   background:white;
+   color: black;
+}
+.nav-bg:hover{
+    background:white;
+    color: black;
+ }
+ .slide-img{
+     height: auto;
+     width: 280px;
+ }
+ .carousel{
+     max-height: 300px;
+ }
+ .carousel-control-prev-icon {
+    background-color: gray !important;
+     border-radius: 20px !important;
+     padding-top: 1px !important;
+    padding-right: 3px !important;
+   }
+.carousel-control-next-icon {
+     background-color: gray !important;
+     border-radius: 20px !important;
+     padding-top: 1px !important;
+    padding-right: 4px !important;
+ }
+ .carousel-item{
+     min-height: 320px;
+     text-align: center;
+ }
+ .modal-content-title{
+     font-size: 23px;
+     font-weight: 500;
+ }
+ .modal-heading{
+     color: #2B99D8;
+ }
